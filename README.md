@@ -12,4 +12,4 @@ Requires a list of FirstName.txt (Firstnames) and LastName.txt (Lastnames)<br/>
 Add atleast 5 Proxies to line 29
 
 # Referer
-Change line 67 and line 82 to your Refferal code.
+Change refer in code, its marked where.
