@@ -56,7 +56,7 @@ for _ in range(num_iterations):
         "Sec-Fetch-Site": "same-origin",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Dest": "empty",
-        "Referer": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id=",
+        "Referer": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id=", # ADD REFER HERE
         "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
         "Priority": "u=1, i"
@@ -71,7 +71,7 @@ for _ in range(num_iterations):
             {"question_value": "Which region will you participate from?", "answer_value": " Europe"},
             {"question_value": "Would you like to receive news, special offers, feedback surveys and playtest invitations from Omeda Studios?", "answer_value": "Yes"}
         ],
-        "referral": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id="
+        "referral": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id=" # ADD REFER HERE
     }
 
     try:
