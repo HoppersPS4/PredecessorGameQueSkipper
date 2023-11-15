@@ -11,5 +11,5 @@ Requires a list of FirstName.txt (Firstnames) and LastName.txt (Lastnames)<br/>
 # Proxies
 Add atleast 5 Proxies to line 29
 
-# Referer
-Change refer in code, its marked where.
+ # Tutorial
+https://www.youtube.com/watch?v=KvMWNVDGsQ0
