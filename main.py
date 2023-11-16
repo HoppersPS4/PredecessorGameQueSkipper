@@ -27,15 +27,7 @@ def RegisterFakeRefUsers():
     url = "https://www.predecessorgame.com/api/ps-beta-signup"
 
     proxies = [ 
-        'http://172.67.238.67:80',
-        'http://172.67.186.143:80',
-        'http://172.67.181.8:80',
-        'http://172.67.83.151:80',
-        'http://172.64.207.96:80',
-        'http://172.67.110.33:80',
-        'http://66.235.200.119:80',
-        'http://159.112.235.134:80',
-        'http://159.112.235.232:80',
+        'http://127.0.0.1' # proxies
     ]
 
     num_iterations = 5
@@ -69,7 +61,7 @@ def RegisterFakeRefUsers():
                     "Sec-Fetch-Site": "same-origin",
                     "Sec-Fetch-Mode": "cors",
                     "Sec-Fetch-Dest": "empty",
-                    "Referer": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id=Z5W9HWW0Y",
+                    "Referer": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id=",
                     "Accept-Encoding": "gzip, deflate, br",
                     "Accept-Language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
                     "Priority": "u=1, i"
@@ -84,7 +76,7 @@ def RegisterFakeRefUsers():
                         {"question_value": "Which region will you participate from?", "answer_value": " Europe"},
                         {"question_value": "Would you like to receive news, special offers, feedback surveys and playtest invitations from Omeda Studios?", "answer_value": "Yes"}
                     ],
-                    "referral": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id=Z5W9HWW0Y"
+                    "referral": "https://www.predecessorgame.com/play/playstation-beta-access?ref_id="
                 }
 
                 try:
